@@ -124,6 +124,6 @@ app.post("/ajaxmessage", function(req, res) {
     res.send(results);
   });
 
-app.listen(8081, function () {
+app.listen(process.env.PORT || 5000, function () {
     console.log('Listening on port 8081!')
 });
