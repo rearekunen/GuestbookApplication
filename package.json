@@ -1,12 +1,17 @@
-{  "name": "guestbookapplication",
-    "version": "0.1.0",  
-    "description": "A guestbook application.",  
-    "engines": {   
-         "node": "12.x"
-         },  
-         "main": "webserver.js",  
-         "scripts": {    
-             "start": "node webserver.js",    
-             "test": "node test.js"
-         }
-        }
+{
+    "name": "guestbookapplication",
+    "version": "0.1.0",
+    "description": "A guestbook application.",
+    "engines": {
+        "node": "12.x"
+    },
+    "main": "webserver.js",
+    "scripts": {
+        "start": "node webserver.js",
+        "test": "node test.js"
+    },
+    "dependencies": {
+        "bootstrap": "^4.6.0",
+        "express": "^4.17.1"
+    }
+}
