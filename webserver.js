@@ -11,8 +11,8 @@ app.get('/', function (req, res) {
 
 app.get('/guestbook', function (req, res) {
     var data = require('./messages.json');
-    var results = '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">' +
-    '<link href="styles.css" rel="stylesheet" type="text/css">' +
+    var results = '<head><title>Guestbook</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">' +
+    '<link href="styles.css" rel="stylesheet" type="text/css"></head>' +
     '<h1>Guestbook</h1>' +
     '<nav class="navbar navbar-expand-lg navbar-light bg-light">' +
         '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">' +
