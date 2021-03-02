@@ -1,0 +1,51 @@
+body {
+    max-width: 80%;
+    margin: auto;
+    background-color: #d7c6a5;
+    color: #36280d;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #36280d;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    justify-content: space-around;
+    flex-basis: auto;
+}
+
+.content {
+    padding: 10px 15px 1px 15px;
+    margin-top: 25px;
+}
+
+#beach {
+    display: inline;
+    max-width: 50%;
+    float: left;
+    margin: 5px 10px 5px 0px;
+}
+
+.btn {
+    margin: 15px 0px 10px 0px;
+    background-color: #36280d;
+}
+
+#thankyoumessage {
+    text-align: center;
+}
+
+#notification {
+    margin-left: 10px;
+    opacity: 50%;
+}
